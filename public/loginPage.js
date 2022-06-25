@@ -1,6 +1,5 @@
 'use strict'
 
-
 const user = new UserForm();
 
 user.loginFormCallback = (data) => {
@@ -11,7 +10,6 @@ user.loginFormCallback = (data) => {
 };
  ApiConnector.login(data, callback);
 }
-
 
 user.registerFormCallback = (data) => {
   const callback = (response) => {
